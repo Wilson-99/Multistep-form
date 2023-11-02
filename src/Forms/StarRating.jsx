@@ -1,6 +1,7 @@
 import React from "react";
 import { BiStar } from "react-icons/bi";
 import { Input } from "./Input";
+import "../Styles/StarRating.sass"
 
 export const StarRating = ({ rating, onRatingChange, feedback }) => {
   return (

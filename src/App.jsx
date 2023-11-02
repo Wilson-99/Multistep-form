@@ -5,7 +5,7 @@ import { Comment } from "./Steps/Comment";
 import { Confirm } from "./Steps/Confirm";
 import { Stepper } from "./Steps/Stepper";
 import img from "./assets/img.jpg";
-import "./App.css";
+import "./Styles/App.sass";
 
 function App() {
   return (

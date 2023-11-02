@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import { Button } from "./Button";
 import { BiEdit } from "react-icons/bi"
+import "../Styles/Section.sass"
 
 export const Section = ({ title, children, url }) => {
   return (
