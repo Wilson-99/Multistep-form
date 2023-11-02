@@ -1,0 +1,194 @@
+.App {
+  width: 800px;
+  height: 90vh;
+  display: flex;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
+}
+
+.sidebar {
+  width: 50%;
+  height: 100%;
+  padding: 1rem;
+}
+
+.sidebar img {
+  width: 15rem;
+  height: 100%;
+}
+
+.stepper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+.navbar-nav u{
+  display: flex;
+  gap: 3rem;
+  text-decoration: none;
+}
+
+.step {
+  text-align: center;
+  list-style: none;
+}
+
+.completed {
+  color: #4CAF50; 
+}
+
+.active {
+  color: #007bff; 
+}
+
+.incomplete {
+  color: #ccc; 
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+}
+
+.header {
+  padding: 3rem 3rem 1.5rem 3rem;
+}
+
+header h2 {
+  font-weight: 20px;
+}
+
+.header span {
+  color: #ccc;
+  font-size: 20px;
+}
+
+.row {
+  margin: 2rem;
+  padding: 0 2rem 2rem 2rem;
+  height: 45vh;
+}
+
+.field {
+  width: auto;
+  height: 30%;
+  margin-bottom: 7px;
+}
+
+.field label {
+  display: flex;
+  font-weight: bold;
+  color: #777;
+  font-size: 1rem;
+  margin: 3px;
+}
+
+textarea {
+  padding: .6rem;
+  width: 100%;
+  height: 200px;
+  border: none;
+  border-radius: 3px;
+  box-shadow: rgba(99, 99, 99, .2) 0px 2px 8px 0px;
+}
+
+.star-rating {
+  display: grid;
+  justify-content: center;
+}
+
+.star-label {
+  display: flex;
+  margin-right: 10px; 
+  cursor: pointer;
+}
+
+.star-radio {
+  display: none; 
+}
+
+.star-icon {
+  font-size: 24px; 
+  color: #797327;
+  transition: color 0.3s; 
+}
+
+.star-icon.selected {
+  fill: #FFD93D;
+}
+
+.rating-message {
+  text-align: center;
+}
+
+input {
+  padding: .6rem;
+  border: none;
+  width: 95%;
+  box-shadow: rgba(99, 99, 99, .2) 0px 2px 8px 0px;
+  border-radius: 5px;
+}
+
+.error{
+  color: red;
+}
+
+.button-row {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.button {
+  margin-top: 9rem;
+}
+
+.section-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-row {
+  text-align: left;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.btn {
+  font-size: .9rem;
+  padding: .5rem 1rem;
+  gap: .5rem;
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+  background: linear-gradient(to left, #793FDF, #5272F2);
+  cursor: pointer;
+  border: none;
+  transition: 0.3s;
+  text-decoration: none;
+  border-end-end-radius: 10px;
+  color: #fff;
+}
+
+.btn:hover{
+  color: #111;
+  background: #ED7D31
+}
+
+.btn-secondary {
+  text-decoration: none;
+  padding: 2px;
+}
+
+.btn-edit {
+  padding: .5px;
+  font-size: medium;
+  text-decoration: none
+}
+
+
