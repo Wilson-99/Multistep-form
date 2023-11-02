@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useLocation } from "react-router-dom";
 import { BiUser, BiComment, BiListCheck } from "react-icons/bi";
+import "../Styles/Stepper.sass"
 
 export const Stepper = () => {
   const location = useLocation();
